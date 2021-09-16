@@ -17,8 +17,8 @@ class ChromeDriver:
 
 
     def get_chrome_driver_dir(self):
-        # chrome_driver_dir = self.current_dir + os.sep + "driver" + os.sep + "chromedriver.exe"
-        chrome_driver_dir = webdriver.Chrome(ChromeDriverManager().install())
+        chrome_driver_dir = self.current_dir + os.sep + "driver" + os.sep + "chromedriver.exe"
+        # chrome_driver_dir = webdriver.Chrome(ChromeDriverManager().install())
         return chrome_driver_dir
 
 
